@@ -9,6 +9,11 @@ public class FlightBookingAppApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(FlightBookingAppApplication.class, args);
+		System.out.println("checking commit");
+		System.out.println("checking commit");
+		System.out.println("checking commit");
+
+
 	}
 
 }
