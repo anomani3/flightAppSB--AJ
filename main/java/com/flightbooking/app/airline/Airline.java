@@ -2,9 +2,11 @@ package com.flightbooking.app.airline;
 
 import com.flightbooking.app.flight.Flight;
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.List;
 @Entity
+@Data
 public class Airline {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
