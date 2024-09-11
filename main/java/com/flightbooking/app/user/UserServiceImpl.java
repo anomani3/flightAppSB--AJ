@@ -57,6 +57,16 @@ public class UserServiceImpl implements UserService {
         }
         return existingUser;
     }
+
+    @Override
+    public User authenticateUser(String userName, String password) {
+        User user = userRepo.findUserByUserNAme(userName);
+        if (user.getPassword().equals(password)) {
+            return user;
+        }
+        return null;
+    }
+
 }
 
 

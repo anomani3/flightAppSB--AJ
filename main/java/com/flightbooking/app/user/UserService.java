@@ -13,5 +13,7 @@ public interface UserService {
    User findUserById(Integer uid);
    User updateUser(User user ,Integer uid);
 
+    User authenticateUser(String userName,String password);
+
 
 }
