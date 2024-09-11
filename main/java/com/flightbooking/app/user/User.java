@@ -15,6 +15,8 @@ public class User {
     private String lastName;
     private String emailId;
     private String passportNumber;
+    private String userName;
+    private String password;
 
 
 }
